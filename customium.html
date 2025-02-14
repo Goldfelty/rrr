@@ -66,9 +66,6 @@
 
     <script>
         document.getElementById("search-btn").addEventListener("click", function() {
-            let query = document.getElementById("search-box").value;
-            let apiKey = "YOUR_API_KEY";
-            let cx = "YOUR_CSE_ID";
             let url = `https://api.duckduckgo.com/?q=${encodeURIComponent(query)}&format=json`;
 
 
