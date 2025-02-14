@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Customium Search</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin-top: 10%;
+        }
+        #search-box {
+            width: 60%;
+            padding: 10px;
+            font-size: 18px;
+            border-radius: 5px;
+            border: 1px solid #ccc;
+        }
+        #search-btn {
+            padding: 10px 15px;
+            font-size: 18px;
+            border: none;
+            background-color: #4285F4;
+            color: white;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        #search-btn:hover {
+            background-color: #357ae8;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Customium Search</h1>
+    <form action="https://www.google.com/search" method="GET">
+        <input type="text" id="search-box" name="q" placeholder="Search anything...">
+        <button type="submit" id="search-btn">Search</button>
+    </form>
+
+</body>
+</html>
